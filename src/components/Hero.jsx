@@ -16,7 +16,7 @@ function Hero() {
                 <Link href={"/courses"}>
                 <Button
                 borderRadius="1.75rem"
-                className="bg-white dark:bg-neutral-900 text-black dark:text-white border-neutral-200 dark:border-neutral-800" >
+                className="bg-white dark:bg-slate-900 text-black dark:text-orange-600 border-neutral-200 dark:border-slate-800 font-bold text-lg" >
                     Courses
                 </Button>
                 </Link>

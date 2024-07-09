@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 py-12">
+    <footer className="bg-black text-gray-400 py-1">
         <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
@@ -80,7 +80,7 @@ function Footer() {
           <p>Phone: (123) 456-7890</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-4">© 2024 Music School. All rights reserved.</p>
     </footer>
   )
 }
