@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-neutral-950 antialiased bg-grid-white/[0.02]">
+    <main className="min-h-screen bg-neutral-950 antialiased bg-grid-white/[0.03]">
         <Hero />
         <div className="w-full pt-20 bg-neutral-950 relative flex items-center justify-center">
           <Highlights/>

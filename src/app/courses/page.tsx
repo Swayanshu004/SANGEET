@@ -131,7 +131,7 @@ function page() {
                         <CardItem translateZ="100" className="w-full mt-4">
                         {item.image}
                         </CardItem>
-                        <div className="flex justify-between items-center mt-20">
+                        <Link href={"/contact"} className="flex justify-between items-center mt-20">    
                         <CardItem
                             translateZ={20}
                             as={Link}
@@ -141,7 +141,7 @@ function page() {
                         >
                             Try now →
                         </CardItem>
-                        </div>
+                        </Link>
                     </CardBody>
                 </CardContainer>
                 ))
