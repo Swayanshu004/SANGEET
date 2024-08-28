@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import { Button } from './ui/moving-border';
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import Image from 'next/image';
 
 
 // interface courseStructure{
@@ -29,7 +30,7 @@ function Highlights() {
               "instructor": "John Doe",
               "isFeatured": true,
               "className": "md:col-span-2",
-              "image": <img src="https://images.pexels.com/photos/12544/pexels-photo-12544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+              "image": <Image src="https://images.pexels.com/photos/12544/pexels-photo-12544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
               "id": 2,
@@ -40,7 +41,7 @@ function Highlights() {
               "instructor": "Jane Smith",
               "isFeatured": true,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/5727883/pexels-photo-5727883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+              "image": <Image src="https://images.pexels.com/photos/5727883/pexels-photo-5727883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 3,
@@ -51,7 +52,7 @@ function Highlights() {
                 "instructor": "Alex Wilson",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/159206/mixing-table-mixing-music-musician-159206.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/159206/mixing-table-mixing-music-musician-159206.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 4,
@@ -62,7 +63,7 @@ function Highlights() {
                 "instructor": "Samantha Miller",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 5,
@@ -73,7 +74,7 @@ function Highlights() {
                 "instructor": "Luke Harris",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/7140395/pexels-photo-7140395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/7140395/pexels-photo-7140395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
               "id": 6,
@@ -84,7 +85,7 @@ function Highlights() {
               "instructor": "Mike Brown",
               "isFeatured": true,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/> 
             },
             {
               "id": 7,
@@ -95,7 +96,7 @@ function Highlights() {
               "instructor": "Emily Johnson",
               "isFeatured": true,
               "className": "md:col-span-2",
-              "image": <img src="https://images.pexels.com/photos/2774575/pexels-photo-2774575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/2774575/pexels-photo-2774575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             },
             {
               "id": 8,
@@ -106,7 +107,7 @@ function Highlights() {
               "instructor": "Chris Davis",
               "isFeatured": false,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/9419229/pexels-photo-9419229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/9419229/pexels-photo-9419229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             },
             {
                 "id": 9,
@@ -117,7 +118,7 @@ function Highlights() {
                 "instructor": "Grace Lee",
                 "isFeatured": false,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+                "image": <Image src="https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             }
         ]
     };

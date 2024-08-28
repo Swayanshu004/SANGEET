@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { GlareCard } from './ui/glare-card'
+import Image from 'next/image'
 
 function UpcomingWebinar() {
   return (
@@ -12,7 +13,7 @@ function UpcomingWebinar() {
         <div className='w-5/6 h-3/5 flex justify-between'>
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
-              <img
+              <Image
                 className="h-full w-full absolute inset-0 object-cover"
                 src="https://images.pexels.com/photos/14449828/pexels-photo-14449828.jpeg?auto=compress&cs=tinysrgb&w=600" alt='na'
               />
@@ -21,7 +22,7 @@ function UpcomingWebinar() {
           </div>
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
-              <img
+              <Image
                 className="h-full w-full absolute inset-0 object-cover"
                 src="https://images.pexels.com/photos/14864072/pexels-photo-14864072.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt='na'
               />
@@ -30,7 +31,7 @@ function UpcomingWebinar() {
           </div>
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
-              <img
+              <Image
                 className="h-full w-full absolute inset-0 object-cover"
                 src="https://images.pexels.com/photos/17083659/pexels-photo-17083659/free-photo-of-golden-statue-in-vidhana-soudha-in-bangalore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt='na'
               />

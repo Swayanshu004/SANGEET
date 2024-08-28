@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 
@@ -15,7 +16,7 @@ function page() {
               "instructor": "John Doe",
               "isFeatured": true,
               "className": "md:col-span-2",
-              "image": <img src="https://images.pexels.com/photos/12544/pexels-photo-12544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+              "image": <Image src="https://images.pexels.com/photos/12544/pexels-photo-12544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
               "id": 2,
@@ -26,7 +27,7 @@ function page() {
               "instructor": "Jane Smith",
               "isFeatured": true,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/5727883/pexels-photo-5727883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+              "image": <Image src="https://images.pexels.com/photos/5727883/pexels-photo-5727883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 3,
@@ -37,7 +38,7 @@ function page() {
                 "instructor": "Alex Wilson",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/159206/mixing-table-mixing-music-musician-159206.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/159206/mixing-table-mixing-music-musician-159206.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 4,
@@ -48,7 +49,7 @@ function page() {
                 "instructor": "Samantha Miller",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
                 "id": 5,
@@ -59,7 +60,7 @@ function page() {
                 "instructor": "Luke Harris",
                 "isFeatured": true,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/7140395/pexels-photo-7140395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
+                "image": <Image src="https://images.pexels.com/photos/7140395/pexels-photo-7140395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/>
             },
             {
               "id": 6,
@@ -70,7 +71,7 @@ function page() {
               "instructor": "Mike Brown",
               "isFeatured": true,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/5 object-cover filter grayscale" alt="na"/> 
             },
             {
               "id": 7,
@@ -81,7 +82,7 @@ function page() {
               "instructor": "Emily Johnson",
               "isFeatured": true,
               "className": "md:col-span-2",
-              "image": <img src="https://images.pexels.com/photos/2774575/pexels-photo-2774575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/2774575/pexels-photo-2774575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             },
             {
               "id": 8,
@@ -92,7 +93,7 @@ function page() {
               "instructor": "Chris Davis",
               "isFeatured": false,
               "className": "md:col-span-1",
-              "image": <img src="https://images.pexels.com/photos/9419229/pexels-photo-9419229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+              "image": <Image src="https://images.pexels.com/photos/9419229/pexels-photo-9419229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             },
             {
                 "id": 9,
@@ -103,7 +104,7 @@ function page() {
                 "instructor": "Grace Lee",
                 "isFeatured": false,
                 "className": "md:col-span-1",
-                "image": <img src="https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
+                "image": <Image src="https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="w-full h-3/4 object-cover filter grayscale" alt="na"/> 
             }
         ]
     };
@@ -113,7 +114,7 @@ function page() {
         <div className="flex flex-wrap justify-center gap-8">
             {
                 courseData.courses.map((item, i)=>( 
-                <CardContainer className="inter-var">           
+                <CardContainer key={i} className="inter-var">           
                     <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                         <CardItem
                         translateZ="50"
