@@ -8,28 +8,28 @@ const people = [
       name: "John Doe",
       designation: "Software Engineer",
       image:
-        "https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://res.cloudinary.com/swayanshu/image/upload/v1734929706/sangeet/pexels-okiki-onipede-1803710719-29876569_hhq5hq.jpg",
     },
     {
       id: 2,
       name: "Robert Johnson",
       designation: "Product Manager",
       image:
-        "https://images.pexels.com/photos/8132769/pexels-photo-8132769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://res.cloudinary.com/swayanshu/image/upload/v1734929706/sangeet/pexels-ali-drabo-10956272-14122553_jeyxsy.jpg",
     },
     {
       id: 6,
       name: "Dora",
       designation: "The Explorer",
       image:
-        "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+        "https://res.cloudinary.com/swayanshu/image/upload/v1734929706/sangeet/pexels-okiki-onipede-1803710719-29876569_hhq5hq.jpg",
     },
     {
       id: 5,
       name: "Tyler Durden",
       designation: "Soap Developer",
       image:
-        "https://images.pexels.com/photos/9522861/pexels-photo-9522861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://res.cloudinary.com/swayanshu/image/upload/v1734929706/sangeet/pexels-ali-drabo-10956272-14122553_jeyxsy.jpg",
     },
 ];
 

@@ -9,7 +9,7 @@ const content = [
       description:
         'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
     content: (
-      <Image src="https://images.pexels.com/photos/11884525/pexels-photo-11884525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="na" className="h-full w-full object-cover"/>
+      <Image width={100} height={100} src="https://res.cloudinary.com/swayanshu/image/upload/v1734929019/sangeet/pexels-tima-miroshnichenko-6670807_ppeb4m.jpg" alt="na" className="h-full w-full object-cover"/>
     ),
   },
   {
@@ -17,7 +17,7 @@ const content = [
     description:
       'Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.',
   content: (
-      <Image src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="na" className="h-full w-full object-cover"/>
+      <Image width={100} height={100} src="https://res.cloudinary.com/swayanshu/image/upload/v1734929012/sangeet/pexels-cottonbro-5650953_d9ovxr.jpg" alt="na" className="h-full w-full object-cover"/>
     ),
   },
   {
@@ -25,7 +25,7 @@ const content = [
     description:
       'Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.',
     content: (
-        <Image src="https://images.pexels.com/photos/2651794/pexels-photo-2651794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="na" className="h-full w-full object-cover"/>
+        <Image width={100} height={100} src="https://res.cloudinary.com/swayanshu/image/upload/v1734929018/sangeet/pexels-maorattias-5192315_onmxcs.jpg" alt="na" className="h-full w-full object-cover"/>
       ),
   },
   {
@@ -33,7 +33,7 @@ const content = [
     description:
       'With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.',
     content: (
-        <Image src="https://images.pexels.com/photos/2952834/pexels-photo-2952834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="na" className="h-full w-full object-cover"/>
+        <Image width={100} height={100} src="https://res.cloudinary.com/swayanshu/image/upload/v1734929011/sangeet/pexels-brett-sayles-4054465_gt0lyb.jpg" alt="na" className="h-full w-full object-cover"/>
       ),
   }
 ];

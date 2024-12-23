@@ -14,8 +14,9 @@ function UpcomingWebinar() {
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
               <Image
+                width={100} height={100}
                 className="h-full w-full absolute inset-0 object-cover"
-                src="https://images.pexels.com/photos/14449828/pexels-photo-14449828.jpeg?auto=compress&cs=tinysrgb&w=600" alt='na'
+                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-samir-ali-3916317-14449828_urld2z.jpg" alt='na'
               />
             </GlareCard>
             <h2 className='text-center mt-4 text-xl font-bold'>KOLKATA</h2>
@@ -23,8 +24,9 @@ function UpcomingWebinar() {
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
               <Image
+                width={100} height={100}
                 className="h-full w-full absolute inset-0 object-cover"
-                src="https://images.pexels.com/photos/14864072/pexels-photo-14864072.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt='na'
+                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-sanjay-kareer-223567388-13385089_soe45m.jpg" alt='na'
               />
             </GlareCard>
             <h2 className='text-center mt-4 text-xl font-bold'>DELHI</h2>
@@ -32,8 +34,9 @@ function UpcomingWebinar() {
           <div>
             <GlareCard className="flex flex-col items-center justify-center h-full">
               <Image
+                width={100} height={100}
                 className="h-full w-full absolute inset-0 object-cover"
-                src="https://images.pexels.com/photos/17083659/pexels-photo-17083659/free-photo-of-golden-statue-in-vidhana-soudha-in-bangalore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt='na'
+                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-anildonoji-17319808_-_Copy_pfoeeg.jpg" alt='na'
               />
             </GlareCard>
             <h2 className='text-center mt-4 text-xl font-bold'>BANGALORE</h2>
