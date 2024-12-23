@@ -38,7 +38,7 @@ const musicSchoolTestimonials = [
 
 function ReviewPage() {
   return (
-    <div className="h-[40rem] w-full bg-white dark:bg-neutral-950 dark:bg-dot-[#ea580c]/[0.4] relative flex flex-col items-center justify-around overflow-hidden">
+    <div className="h-[40rem] w-full bg-white dark:bg-neutral-950 dark:bg-dot-[#ea580c]/[0.4] relative flex flex-col items-center justify-around overflow-hidden px-10">
         <h2 className="text-5xl font-bold mb-10">What Our Students Say</h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 mb-20">
         <InfiniteMovingCards
