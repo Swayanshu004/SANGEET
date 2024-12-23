@@ -26,20 +26,20 @@ function UpcomingWebinar() {
               <Image
                 width={100} height={100}
                 className="h-full w-full absolute inset-0 object-cover"
-                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-sanjay-kareer-223567388-13385089_soe45m.jpg" alt='na'
+                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-anildonoji-17319808_-_Copy_pfoeeg.jpg" alt='na'
               />
             </GlareCard>
-            <h2 className='text-center mt-4 text-xl font-bold'>DELHI</h2>
+            <h2 className='text-center mt-4 text-xl font-bold'>BANGALORE</h2>
           </div>
           <div className='my-5'>
             <GlareCard className="flex flex-col items-center justify-center h-full">
               <Image
                 width={100} height={100}
                 className="h-full w-full absolute inset-0 object-cover"
-                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-anildonoji-17319808_-_Copy_pfoeeg.jpg" alt='na'
+                src="https://res.cloudinary.com/swayanshu/image/upload/v1734929984/sangeet/pexels-sanjay-kareer-223567388-13385089_soe45m.jpg" alt='na'
               />
             </GlareCard>
-            <h2 className='text-center mt-4 text-xl font-bold'>BANGALORE</h2>
+            <h2 className='text-center mt-4 text-xl font-bold'>DELHI</h2>
           </div>
         </div>
     </div>
